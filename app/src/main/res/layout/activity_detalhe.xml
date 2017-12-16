@@ -61,6 +61,42 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content" >
         </EditText>
+        <TextView
+            android:id="@+id/textViewFoneComercial"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/foneComercial">
+        </TextView>
+        <EditText
+            android:id="@+id/editTextFoneComercial"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+        </EditText>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/nascimento"
+                android:layout_gravity="center"/>
+            <NumberPicker
+                android:id="@+id/np_dia"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/barra"
+                android:layout_gravity="center"
+                android:padding="24dp"
+                android:textSize="32sp"/>
+            <NumberPicker
+                android:id="@+id/np_mes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
     </LinearLayout>
 </android.support.design.widget.CoordinatorLayout>
 
